@@ -27,6 +27,10 @@
             greenColor: 'rgb(171, 239, 95)',
             bgColor: 'rgb(244, 244, 244)',
             bgGreen: 'rgba(171, 239, 95, 0.2)',
+            careOne: 'rgb(231, 193, 211)',
+            cardTwo: 'rgb(239, 218, 110)',
+            cardThree: 'rgb(164, 218, 195)',
+            cardFour: 'rgb(119, 170, 234)',
           },
           fontFamily: {
             Manrope: 'Manrope',
@@ -174,25 +178,108 @@
                     works</span></button>
                 <h2 class=" text-2xl lg:text-5xl font-semibold ">Our Works Process</h2>
                 <p class="text-xl">The barn house captivates with its blend of rustic charm and modern sophistication,
-                  featuring weathered
+                  featuring <br> weathered
                   wood, sleek
                   metal accents.</p>
               </div>
             </div>
           </div>
         </div>
+        <!-- card area -->
+        <div class="my-12 grid grid-cols-1 lg:grid-cols-4 gap-5">
+          <div class="shadow-xl card-body bg-careOne ">
+            <figure>
+              <img src="./assets/concept.png" alt="concept" />
+            </figure>
+            <div class="">
+              <h2 class="card-title">
+                Concept
+              </h2>
+              <p>The barn house captivates with its blend of rustic charm and modern.</p>
+
+            </div>
+          </div>
+
+          <div class="shadow-xl card-body bg-cardTwo">
+            <figure>
+              <img src="./assets/flow-chart.png" alt="concept" />
+            </figure>
+            <div class="">
+              <h2 class="card-title">
+                Design Process
+              </h2>
+              <p>The barn house captivates with its blend of rustic charm and modern.</p>
+
+            </div>
+          </div>
+
+          <div class="shadow-xl card-body bg-cardThree">
+            <figure>
+              <img src="./assets/vision.png" alt="concept" />
+            </figure>
+            <div class="">
+              <h2 class="card-title">
+                Supervision
+              </h2>
+              <p>The barn house captivates with its blend of rustic charm and modern.</p>
+
+            </div>
+          </div>
+
+          <div class="shadow-xl card-body bg-cardFour">
+            <figure>
+              <img src="./assets/budget-planning.png" alt="concept" />
+            </figure>
+            <div class="">
+              <h2 class="card-title">
+                Budget Planning
+              </h2>
+              <p>The barn house captivates with its blend of rustic charm and modern.</p>
+
+            </div>
+          </div>
+
+
+        </div>
       </div>
 
-      </div>
+
 
 
     </section>
     <!--  -->
   </main>
   <!-- footer section start -->
-  <footer>
 
+  <footer class="footer footer-center bg-[#000] text-primary-content p-10">
+    <aside>
+      <a class="text-4xl font-semibold flex mb-4" href="#">
+        <div class="rounded-3xl bg-greenColor"><i class="fa-solid fa-arrow-right -rotate-45"></i></div>
+        <span>Rinterio</span>
+      </a>
+      <p>The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered
+        wood,
+        sleek
+        metal accents.</p>
+    </aside>
+    <nav>
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-5">
+
+        <li class="hover:text-primary transiton-color duration-300 ease-inout list-none	"><a>Home</a></li>
+        <li class="hover:text-primary transiton-color duration-300 ease-inout list-none	"><a>Services</a></li>
+        <li class="hover:text-primary transiton-color duration-300 ease-inout list-none	"><a>Portfolio</a></li>
+        <li class="hover:text-primary transiton-color duration-300 ease-inout list-none	"><a>Blogs</a></li>
+        <li class="hover:text-primary transiton-color duration-300 ease-inout list-none	"><a>Contact Us</a></li>
+      </div>
+      <div class="mt-4">
+
+        <a class="flex btn bg-greenColor"><span>Book Consult</span> <i
+            class="fa-solid fa-arrow-right -rotate-45"></i></a>
+      </div>
+
+    </nav>
   </footer>
+
 
 </body>
 
