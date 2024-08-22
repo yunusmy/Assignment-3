@@ -31,12 +31,13 @@
             cardTwo: 'rgb(239, 218, 110)',
             cardThree: 'rgb(164, 218, 195)',
             cardFour: 'rgb(119, 170, 234)',
+            btnColor: ' rgba(171, 239, 95, 0.2)',
           },
           fontFamily: {
             Manrope: 'Manrope',
           },
           backgroundImage: {
-            bannerBg: "url('./assets/bd.png')",
+            bannerBg: "url('./assets/bg.jpg')",
 
           }
         }
@@ -77,7 +78,7 @@
             </div>
             <div class="">
 
-              <a class="flex btn btn-success"><span>Book Consult</span> <i
+              <a class="flex btn bg-greenColor"><span>Book Consult</span> <i
                   class="fa-solid fa-arrow-right -rotate-45"></i></a>
             </div>
 
@@ -116,7 +117,7 @@
             wood, sleek
             metal <br> accents, and large windows that flood the space with natural light.</p>
           <div class="mt-2">
-            <button class="btn btn-success"><span>View Details</span><i
+            <button class="btn bg-greenColor"><span>View Details</span><i
                 class="fa-solid fa-arrow-right -rotate-45"></i></a></button>
           </div>
         </div>
@@ -128,7 +129,7 @@
   <!-- main section start -->
   <main>
     <!-- We design thoughtful, liveable spaces -->
-    <section class="mt-8 lg:bg-bgColor bg-bgColor">
+    <section class="mt-4 lg:bg-bgColor bg-bgColor pb-3">
       <div class="container mx-auto px-1 lg:flex lg:gap-3 justify-center items-center">
         <div class="flex-1 text-center lg:text-left">
           <img class="hidden lg:inline-block mb-4" src="./assets/Vector.png" alt="">
@@ -252,15 +253,93 @@
 
 
     </section>
+    <!-- Our Latest Portfolio -->
+    <section class="">
+      <div class="container mx-auto">
+        <div class="card-body items-center text-center">
+          <div class="card-actions">
+            <button class="btn bg-btnColor text-xl flex"><i class="fa-solid fa-arrow-right"></i><span>Explore our Latest
+                works</span></button>
+          </div>
+
+          <h2 class="text-4xl font-semibold">Our Latest Portfolio</h2>
+          <p>The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered
+            wood, sleek
+            metal accents.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 py-3">
+          <div class="col-span-1 lg:col-span-3 shadow">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+              <figure class="p-3">
+                <img src="./assets/img1.png" alt="Movie" class="rounded-xl w-full lg:w-6/12" />
+              </figure>
+              <div class="flex flex-col justify-center text-left px-2 lg:w-8/12">
+                <h2 class="card-title">Commercial</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                <button class="btn bg-btnColor text-xl flex"><span>View
+                    Details</span><i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="shadow-xl">
+            <figure class="p-3">
+              <img src="./assets/img2.png" alt="Shoes" class="rounded-xl h-full w-full" />
+            </figure>
+          </div>
+
+
+          <div class="shadow lg:h-5/6">
+            <figure class="p-3">
+              <img src="./assets/img3.png" alt="Shoes" class="rounded-xl w-full lg:w-auto lg:h-auto" />
+            </figure>
+          </div>
+
+
+
+
+          <div class=" col-span-1 lg:col-span-2 shadow lg:h-5/6">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+              <figure class="p-3">
+                <img src="./assets/img4.png" alt="Movie" class="w-full lg:h-5/6" />
+              </figure>
+              <div class="card-body text-left  lg:w-11/12">
+                <h2 class="card-title">Commercial</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                <button class="btn bg-btnColor text-xl flex lg:flex-row"><span>View Details</span><i
+                    class="fa-solid fa-arrow-right"></i></button>
+
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="card  shadow lg:h-5/6">
+            <figure class="p-3">
+              <img src="./assets/img5.png" alt="Shoes" class="rounded-xl w-full  lg:h-5/6" />
+            </figure>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
     <!-- Let’s Discuss Next Project -->
-    <section class="bg-bannerBg bg-no-repeat">
+    <section class="bg-bannerBg bg-no-repeat bg-cover">
       <div class="container mx-auto">
         <div class="text-center items-center">
           <div class="">
             <div class="card w-full">
               <div class="card-body items-center text-center">
-                <button class="btn bg-[#fff] text-gray-600 text-xl flex"><i
-                    class="fa-solid fa-arrow-right"></i><span>Let’s Connect</span></button>
+                <button class="btn bg-btnColor text-xl flex"><i class="fa-solid fa-arrow-right"></i><span>Let’s
+                    Connect</span></button>
                 <h2 class=" text-2xl lg:text-5xl font-semibold ">Let’s Discuss Next Project</h2>
                 <p class="text-xl">The barn house captivates with its blend of rustic charm and modern
                   sophistication,<br>
@@ -270,7 +349,7 @@
             </div>
           </div>
 
-          <div class="my-3 lg:w-8/12 mx-auto">
+          <div class="my-3 lg:w-8/12 mx-auto pb-12 px-2">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 ">
               <div><input type="text" placeholder="First Name*" class="input input-bordered w-full" /></div>
               <div><input type="text" placeholder="Last Name*" class="input input-bordered w-full " /></div>
